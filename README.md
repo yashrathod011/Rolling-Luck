@@ -14,7 +14,6 @@ In this simulation, players navigate a racing track where progression is determi
 ## 🎮 Features
 * **Interactive Dice:** A keyboard-triggered random value generator that simulates the physical toss of a die.
 * **Real-time Rendering:** Uses OpenGL to draw the racing grid and game pieces.
-* **Window Management:** Includes robust logic for handling window resizing and scaling to maintain aspect ratios.
 * **Dynamic Gameplay:** A race-to-the-finish mechanic where players must rely on "Rolling Luck" to reach the goal.
 
 ## 🔧 Installation & Setup
@@ -36,9 +35,8 @@ To run this project locally, ensure you have a C++ compiler and the GLUT/FreeGLU
     ```
 
 ## ⌨️ Controls
-* **[Key]:** Roll the dice (as defined in your `keyboard` function).
-* **[R]:** Reset the race.
-* **[Esc]:** Exit the application.
+* **[Enter(Return)]:** Roll the dice 
+
 
 ---
 *Developed as a study of Computer Graphics and Application Lifecycle Management.*
